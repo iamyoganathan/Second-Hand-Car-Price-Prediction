@@ -152,13 +152,31 @@ This project uses a Linear Regression model trained on the Quikr car dataset to 
 - Price predictions based on historical data
 - Model version mismatch warning (trained on sklearn 1.7.1, may run on 1.8.0+)
 
+## ☁️ Azure Deployment
+
+This application is ready to deploy on Microsoft Azure! 
+
+**📖 Complete deployment guide**: See [AZURE_DEPLOYMENT.md](AZURE_DEPLOYMENT.md)
+
+### Quick Deploy Options:
+- ✅ Azure App Service (Recommended)
+- ✅ Azure Container Instances
+- ✅ Azure Blob Storage for model hosting
+- ✅ Application Insights for monitoring
+
+### Deployment Files Included:
+- `requirements.txt` - Python dependencies
+- `.streamlit/config.toml` - Streamlit configuration for Azure
+- `startup.sh` - Azure startup script
+- `.gitignore` - Excludes unnecessary files
+
 ## 🔮 Future Enhancements
 
 - [ ] Add data visualization (price trends, brand comparison)
 - [ ] Implement model retraining pipeline
 - [ ] Add more car brands and models
 - [ ] Include additional features (owner history, service records)
-- [ ] Deploy to cloud platform (Streamlit Cloud, Heroku, AWS)
+- [x] Deploy to cloud platform - **Azure App Service**
 - [ ] Add price comparison with market averages
 - [ ] Implement model performance metrics display
 
