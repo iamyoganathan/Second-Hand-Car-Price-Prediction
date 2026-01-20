@@ -40,12 +40,20 @@ ENV/
 .DS_Store
 Thumbs.db
 
-# Streamlit
-.streamlit/
-
 # Jupyter Notebook
 .ipynb_checkpoints
 
 # Environment variables
 .env
 .env.local
+
+# Azure deployment files (sensitive)
+publish-profile.xml
+*.publishsettings
+
+# Build artifacts
+deploy.zip
+*.zip
+
+# Logs
+*.log
